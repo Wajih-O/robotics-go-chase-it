@@ -1356,7 +1356,7 @@
           <meta>
             <layer>0</layer>
           </meta>
-        </visual> -->
+        </visual>
         <collision name='Wall_2_Collision_3'>
           <geometry>
             <box>
@@ -1377,7 +1377,7 @@
               <ode/>
             </friction>
           </surface>
-        </collision>
+        </collision> -->
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -1508,7 +1508,7 @@
           </surface>
         </collision>
 
-<!--
+	<!--
         <visual name='Wall_29_Visual_3'>
           <pose frame=''>-1.31882 0 2.35 0 -0 0</pose>
           <geometry>
@@ -1526,7 +1526,7 @@
           <meta>
             <layer>0</layer>
           </meta>
-        </visual> -->
+        </visual>
         <collision name='Wall_29_Collision_3'>
           <geometry>
             <box>
@@ -1547,7 +1547,7 @@
               <ode/>
             </friction>
           </surface>
-        </collision>
+        </collision> -->
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -2168,7 +2168,7 @@
           <meta>
             <layer>0</layer>
           </meta>
-        </visual> -->
+        </visual>
         <collision name='Wall_7_Collision_3'>
           <geometry>
             <box>
@@ -2189,7 +2189,7 @@
               <ode/>
             </friction>
           </surface>
-        </collision>
+        </collision> -->
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -2783,5 +2783,6 @@
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <plugin filename="libcollision_map_creator.so" name="collision_map_creator"/>
   </world>
 </sdf>
